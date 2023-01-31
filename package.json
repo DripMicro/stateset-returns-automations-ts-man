@@ -1,0 +1,28 @@
+{
+  "name": "stateset-return-new",
+  "version": "1.0.0",
+  "main": "web/index.js",
+  "license": "UNLICENSED",
+  "scripts": {
+    "shopify": "shopify",
+    "build": "shopify app build",
+    "dev": "shopify app dev",
+    "info": "shopify app info",
+    "generate": "shopify app generate",
+    "deploy": "shopify app deploy"
+  },
+  "dependencies": {
+    "@shopify/app": "3.25.0",
+    "@shopify/cli": "3.25.0",
+    "graphql-request": "^5.1.0",
+    "uuid": "^9.0.0"
+  },
+  "author": "Robinhood",
+  "devDependencies": {
+    "@types/fuzzaldrin-plus": "^0.6.2",
+    "@types/react-instantsearch-dom": "^6.12.3",
+    "@types/uuid": "^9.0.0",
+    "fuzzaldrin-plus": "^0.6.0",
+    "react-instantsearch-dom": "^6.39.0"
+  }
+}
